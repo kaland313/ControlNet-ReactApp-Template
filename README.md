@@ -15,6 +15,10 @@ Az itt található forráskód bármely részének újra felhasználása, publik
 
 In this lab you'll learn how to make the diffusion model running inside a colab notebook available on the web via an API that you'll define. You'll also implement the client side code that connects to this API, sends requests to it and displays the results on a user interface running in a browser as a React.js app. The web app'll record a scribble that you draw by hand using your webcam and send it to the model. 
 
+For developing and testing the solution, we will use Github CodeSpaces: https://github.com/codespaces  
+
+By default, you have 120 usage hours for an initial registration which should be more than enough for this lab. But, if you are not developing the app, make sure to stop the [CodeSpace](https://github.com/codespaces)
+
 ### Create an API that exposes the scribble-to-image diffusion model
 
 1. If you're not familiar with the FastAPI package, read the following blogpost: https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/
@@ -95,7 +99,7 @@ In this lab you'll learn how to make the diffusion model running inside a colab 
 
 1. Clone this repository and start a codespace in it
 
-2. Examine the ![App.jsx](src/App.jsx) file. Search for how we define the prompt variable in the React code and how it is displayed on the UI.
+2. Examine the [App.jsx](src/App.jsx) file. Search for how we define the prompt variable in the React code and how it is displayed on the UI.
 
 3. Try running the UI (in a separate tab, the webcam access doesn't work in the built-in browser. Close the tab before editing the jsx code!)
 
@@ -141,9 +145,13 @@ In this lab you'll learn how to make the diffusion model running inside a colab 
 
 6. To display a base64 image returned by the API call `setImageUrl(...)` with it
 
-7. Modify the UI to allow for changing more inputs of the diffusion model code (e.g. image resolution or number of images, etc)! 
+7. Modify the UI to allow for changing more inputs of the diffusion model code (e.g. image resolution or number of images, etc)!
 
-8. Record a short video of using the web app
+8. Test your solution with multiple drawings and prompts
+
+9. In codespaces, temporarily [change the port to public](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace#sharing-a-port) – this way, others can see it through the link 
+
+10. Record a short video of using the web app
 
 
 
