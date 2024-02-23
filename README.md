@@ -99,7 +99,7 @@ By default, you have 120 usage hours for an initial registration which should be
 
 1. Clone this repository and start a codespace in it
 
-2. Examine the [App.jsx](src/App.jsx) file. Search for how we define the prompt variable in the React code and how it is displayed on the UI.
+2. Examine the [App.jsx](src/App.jsx) file. Search for how we define the prompt variable in the React code and how it is displayed on the UI. If you are new to React.js, read a tutorial about hooks: https://legacy.reactjs.org/docs/hooks-overview.html (the code uses useRef, useState, and useEffect)
 
 3. Try running the UI (in a separate tab, the webcam access doesn't work in the built-in browser. Close the tab before editing the jsx code!)
 
