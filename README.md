@@ -20,7 +20,7 @@ For developing and testing the solution, we will use Github CodeSpaces: https://
 By default, you have 120 usage hours for an initial registration which should be more than enough for this lab. But, if you are not developing the app, make sure to stop the [CodeSpace](https://github.com/codespaces)
 
 ### Create an API that exposes the scribble-to-image diffusion model
-
+0. Open the [controlnet_v1_1_fastapi_colab.ipynb](controlnet_v1_1_fastapi_colab.ipynb) in [Colab](https://colab.research.google.com/).
 1. If you're not familiar with the FastAPI package, read the following blogpost: https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/
 
 2. To send and receive images through via an API we'll convert them to base64 strings. If you're not familiar with base64 encoding we recommend this blogpost: https://www.geeksforgeeks.org/how-to-display-base64-images-in-html/
