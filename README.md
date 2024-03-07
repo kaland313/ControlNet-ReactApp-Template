@@ -141,17 +141,17 @@ By default, you have 120 usage hours for an initial registration which should be
    });
    ```
 
-5. For debugging open the web app in a new tab and use the Console of your browser's Developer tools menu (`Ctrl`+`Shift`+`i` > Console)
+5. For debugging open the web app in a new tab and use the Console of your browser's Developer tools menu (`Ctrl`+`Shift`+`i` > Console).
 
-6. To display a base64 image returned by the API call `setImageUrl(...)` with it
+6. To display a base64 image returned by the API call `setImageUrl(...)` with it.
 
 7. Modify the user interface so that it follows your previous UI designs as closely as possible!
 
-8. Test your solution with multiple drawings and prompts
+8. Test your solution with multiple drawings and prompts!
 
-9. In codespaces, temporarily [change the port to public](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace#sharing-a-port) – this way, others (teachers) can see it through the link 
+9. In codespaces, temporarily [change the port to public](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace#sharing-a-port) – this way, others (teachers) can see it through the link. Please write this link into the documentation!
 
-10. Record a short video of using the web app
+10. Record a short video of using the web app!
 
 
 
