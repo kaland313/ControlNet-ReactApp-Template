@@ -145,11 +145,11 @@ By default, you have 120 usage hours for an initial registration which should be
 
 6. To display a base64 image returned by the API call `setImageUrl(...)` with it
 
-7. Modify the UI to allow for changing more inputs of the diffusion model code (e.g. image resolution or number of images, etc)!
+7. Modify the user interface so that it follows your previous UI designs as closely as possible!
 
 8. Test your solution with multiple drawings and prompts
 
-9. In codespaces, temporarily [change the port to public](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace#sharing-a-port) – this way, others can see it through the link 
+9. In codespaces, temporarily [change the port to public](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace#sharing-a-port) – this way, others (teachers) can see it through the link 
 
 10. Record a short video of using the web app
 
